@@ -6,7 +6,7 @@
 
     <groupId>RestAssuredPOC</groupId>
     <artifactId>RestAssuredPOC</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>         
 
     <dependencies>
         <dependency>
@@ -94,8 +94,8 @@
                         </goals>
                         <configuration>
                             <projectName>cucumber-jvm-example</projectName>
-                            <outputDirectory>target/cucumber-report/cucumber-reports</outputDirectory>
-                            <cucumberOutput>target/cucumber-report/cucumber.json</cucumberOutput>
+                            <outputDirectory>./target/cucumber-report/cucumber-reports</outputDirectory>
+                            <cucumberOutput>./target/cucumber-report/cucumber.json</cucumberOutput>
                         </configuration>
                     </execution>
                 </executions>
