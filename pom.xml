@@ -93,7 +93,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>cucumber-jvm-example</projectName>
+                            <projectName>RestAssuredPOC</projectName>
                             <outputDirectory>target/cucumber-report/cucumber-reports</outputDirectory>
                             <cucumberOutput>target/cucumber-report/cucumber.json</cucumberOutput>
                         </configuration>
